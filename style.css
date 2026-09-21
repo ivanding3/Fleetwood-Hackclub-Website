@@ -53,3 +53,15 @@ body {
 .favicon{
     border-radius: 50px
 }
+.events{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.event{
+   width: 500px;
+   border-radius: 10px;
+}
+.donations{
+    bottom: 10px ;
+}
