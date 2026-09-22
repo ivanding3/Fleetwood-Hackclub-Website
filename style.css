@@ -11,7 +11,7 @@
 body {
     text-align:center;
     font-family: "Galindo", sans-serif;
-    background-image: linear-gradient(#03a5fc, #047acf);
+    background-image: radial-gradient(#0690da, #01548f);
 }
 .galindo-regular {
   font-family: "Galindo", sans-serif;
