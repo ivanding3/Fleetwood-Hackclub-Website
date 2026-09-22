@@ -35,10 +35,10 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     }
-    .school_pic{
-        width: 50vw;
-        max-width: 900px;
-        position: relative;
+.school_pic{
+    width: 50vw;
+    max-width: 900px;
+    position: relative;
 }
 .socials{
     top: 20px;
@@ -64,4 +64,10 @@ body {
 }
 .donations{
     bottom: 10px ;
+}
+.head_shot{
+    width: 200px;
+}
+.exec_name{
+    font-size: 30px;
 }
