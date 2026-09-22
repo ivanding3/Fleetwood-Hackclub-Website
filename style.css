@@ -3,7 +3,7 @@
 }
 
 .flag {
-    width: 150px;
+    width: 200px;
     position: absolute;
     top: 20px;
     left: 30px;
@@ -11,7 +11,7 @@
 body {
     text-align:center;
     font-family: "Galindo", sans-serif;
-    background-color: black;
+    background-image: linear-gradient(#03a5fc, #047acf);
 }
 .galindo-regular {
   font-family: "Galindo", sans-serif;
@@ -20,7 +20,7 @@ body {
 }
 .title{
     font-size: 80px;
-    color: rgb(81, 200, 239);
+    color: rgb(255, 255, 255);
     margin-bottom: 0px;
 }
 .subtitle{
@@ -48,7 +48,7 @@ body {
     position: fixed;
 }
 .socials img{
-    width: 50px;
+    width: 80px;
 }
 .favicon{
     border-radius: 50px
@@ -59,15 +59,34 @@ body {
     align-items: center;
 }
 .event{
-   width: 500px;
+   width: 1000px;
    border-radius: 10px;
 }
 .donations{
     bottom: 10px ;
 }
-.head_shot{
+.about_exec{
+    display: flex;
+    align-items: center;
+    }
+.about_exec img{
     width: 200px;
+    display: block;
+    margin-left: 6vw;
+    margin-top: -50px;
 }
-.exec_name{
-    font-size: 30px;
+.about_text{
+    margin: 30px;
+    margin-bottom: 100px;
+}
+.about_exec h1{
+    color: white;
+    font-size: 40px;
+    
+}
+.about_exec p{
+    font-size: 20px;
+    color:white;
+    margin-bottom: 0;
+    margin-top: 0;
 }
